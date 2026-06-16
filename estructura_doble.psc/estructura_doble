@@ -1,0 +1,13 @@
+Algoritmo selectiv_doble 
+	//determinar si un numero es PAR o IMPAR
+	definir numero1 como entero;
+	escribir"ingrese un numero1";
+	leer numero1;
+	//SELETIVA DOBLE 
+	si numero1 MOD 2 = 0 entonces
+		Escribir "es un numero PAR: ",numero1;
+	SiNo
+		escribir "es un numero IMPAR",numero1;
+	FinSi
+	
+FinAlgoritmo
